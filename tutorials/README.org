@@ -1,0 +1,17 @@
+* selectlist
+#+BEGIN_SRC sh
+g++ selectlist.cpp -o selectlist /usr/local/lib/librudeconfig.a
+./selectlist
+#+END_SRC
+
+* login
+#+BEGIN_SRC sh
+g++ login.cpp -o login /usr/local/lib/librudeconfig.a
+./login
+#+END_SRC
+
+* convert
+#+BEGIN_SRC sh
+g++ convert.cpp -o convert /usr/local/lib/librudeconfig.a
+./convert
+#+END_SRC
